@@ -1,1 +1,2 @@
-# StudyConnectAI
+## StudyConnectAI
+In this code, we're using the Flask framework to create a simple API endpoint /course_plan that expects a POST request with JSON data containing the subject. The code then sends a prompt to the GPT-3.5 API using the openai.Completion.create method, specifying the prompt, maximum number of tokens to generate, and other parameters. The generated course plan is extracted from the API response and returned as a JSON response.
